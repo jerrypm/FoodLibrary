@@ -7,21 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9497966AE2FF2DA3B0759BD /* Pods_AppsFoodLibary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7881A09ED54C1ED7EFDF58 /* Pods_AppsFoodLibary.framework */; };
 		C4396B06204EA9160099FBE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4396B05204EA9160099FBE9 /* AppDelegate.swift */; };
-		C4396B08204EA9160099FBE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4396B07204EA9160099FBE9 /* ViewController.swift */; };
-		C4396B0B204EA9160099FBE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4396B09204EA9160099FBE9 /* Main.storyboard */; };
 		C4396B0D204EA9160099FBE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4396B0C204EA9160099FBE9 /* Assets.xcassets */; };
-		C4396B10204EA9160099FBE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4396B0E204EA9160099FBE9 /* LaunchScreen.storyboard */; };
+		C4396B1C204EAF7E0099FBE9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4396B1A204EAF7E0099FBE9 /* HomeViewController.swift */; };
+		C4396B1D204EAF7E0099FBE9 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4396B1B204EAF7E0099FBE9 /* HomeViewController.xib */; };
+		C4396B21204FC4C40099FBE9 /* drinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4396B1F204FC4C40099FBE9 /* drinkTableViewCell.swift */; };
+		C4396B22204FC4C40099FBE9 /* drinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4396B20204FC4C40099FBE9 /* drinkTableViewCell.xib */; };
+		C4396B25204FC4D90099FBE9 /* foodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4396B23204FC4D90099FBE9 /* foodTableViewCell.swift */; };
+		C4396B26204FC4D90099FBE9 /* foodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4396B24204FC4D90099FBE9 /* foodTableViewCell.xib */; };
+		C4396B2E204FE6A80099FBE9 /* DrinkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4396B2C204FE6A80099FBE9 /* DrinkCollectionViewCell.swift */; };
+		C4396B2F204FE6A80099FBE9 /* DrinkCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4396B2D204FE6A80099FBE9 /* DrinkCollectionViewCell.xib */; };
+		C4396B3220500EB80099FBE9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4396B3120500EB80099FBE9 /* DataService.swift */; };
+		C4396B35205012D30099FBE9 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4396B34205012D30099FBE9 /* Category.swift */; };
+		C4396B37205013D80099FBE9 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4396B36205013D80099FBE9 /* MenuList.swift */; };
+		C48D54992057B23A00965DBB /* CollapsibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D54942057B23900965DBB /* CollapsibleTableViewController.swift */; };
+		C48D549A2057B23A00965DBB /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D54952057B23A00965DBB /* ExampleData.swift */; };
+		C48D549B2057B23A00965DBB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D54962057B23A00965DBB /* Extensions.swift */; };
+		C48D549C2057B23A00965DBB /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D54972057B23A00965DBB /* CollapsibleTableViewHeader.swift */; };
+		C48D549D2057B23A00965DBB /* CollapsibleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D54982057B23A00965DBB /* CollapsibleTableViewCell.swift */; };
+		C49C606C205114A1005898D5 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C606A205114A1005898D5 /* StartViewController.swift */; };
+		C49C606D205114A1005898D5 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C49C606B205114A1005898D5 /* StartViewController.xib */; };
+		C49C607120511CC1005898D5 /* new.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49C607020511CC1005898D5 /* new.storyboard */; };
+		C49C607420514167005898D5 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C607220514167005898D5 /* CategoryViewController.swift */; };
+		C49C607520514167005898D5 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C49C607320514167005898D5 /* CategoryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6397DB2AC858DE903EAA6B89 /* Pods-AppsFoodLibary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppsFoodLibary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppsFoodLibary/Pods-AppsFoodLibary.debug.xcconfig"; sourceTree = "<group>"; };
 		C4396B02204EA9160099FBE9 /* AppsFoodLibary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppsFoodLibary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4396B05204EA9160099FBE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4396B07204EA9160099FBE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C4396B0A204EA9160099FBE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4396B0C204EA9160099FBE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C4396B0F204EA9160099FBE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4396B11204EA9160099FBE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4396B1A204EAF7E0099FBE9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C4396B1B204EAF7E0099FBE9 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C4396B1F204FC4C40099FBE9 /* drinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkTableViewCell.swift; sourceTree = "<group>"; };
+		C4396B20204FC4C40099FBE9 /* drinkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = drinkTableViewCell.xib; sourceTree = "<group>"; };
+		C4396B23204FC4D90099FBE9 /* foodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodTableViewCell.swift; sourceTree = "<group>"; };
+		C4396B24204FC4D90099FBE9 /* foodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = foodTableViewCell.xib; sourceTree = "<group>"; };
+		C4396B2C204FE6A80099FBE9 /* DrinkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCollectionViewCell.swift; sourceTree = "<group>"; };
+		C4396B2D204FE6A80099FBE9 /* DrinkCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrinkCollectionViewCell.xib; sourceTree = "<group>"; };
+		C4396B3120500EB80099FBE9 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		C4396B34205012D30099FBE9 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C4396B36205013D80099FBE9 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		C48D54942057B23900965DBB /* CollapsibleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewController.swift; sourceTree = "<group>"; };
+		C48D54952057B23A00965DBB /* ExampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
+		C48D54962057B23A00965DBB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C48D54972057B23A00965DBB /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
+		C48D54982057B23A00965DBB /* CollapsibleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewCell.swift; sourceTree = "<group>"; };
+		C49C606A205114A1005898D5 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		C49C606B205114A1005898D5 /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		C49C607020511CC1005898D5 /* new.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = new.storyboard; sourceTree = "<group>"; };
+		C49C607220514167005898D5 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		C49C607320514167005898D5 /* CategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
+		DD9D3093D5D45CC73175B5B5 /* Pods-AppsFoodLibary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppsFoodLibary.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppsFoodLibary/Pods-AppsFoodLibary.release.xcconfig"; sourceTree = "<group>"; };
+		EE7881A09ED54C1ED7EFDF58 /* Pods_AppsFoodLibary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppsFoodLibary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9497966AE2FF2DA3B0759BD /* Pods_AppsFoodLibary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +81,8 @@
 			children = (
 				C4396B04204EA9160099FBE9 /* AppsFoodLibary */,
 				C4396B03204EA9160099FBE9 /* Products */,
+				D6A3A1098BF1F89E63593B30 /* Pods */,
+				F64E2636E2DB0AD74DEC1798 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +97,137 @@
 		C4396B04204EA9160099FBE9 /* AppsFoodLibary */ = {
 			isa = PBXGroup;
 			children = (
+				C4396B33205012A50099FBE9 /* User */,
+				C4396B3020500E830099FBE9 /* Services */,
+				C4396B27204FC7210099FBE9 /* Library */,
+				C4396B19204EAF380099FBE9 /* Controllers */,
+				C4396B18204EAF310099FBE9 /* View */,
+				C4396B17204EAF220099FBE9 /* Model */,
 				C4396B05204EA9160099FBE9 /* AppDelegate.swift */,
-				C4396B07204EA9160099FBE9 /* ViewController.swift */,
-				C4396B09204EA9160099FBE9 /* Main.storyboard */,
+				C49C606A205114A1005898D5 /* StartViewController.swift */,
+				C49C606B205114A1005898D5 /* StartViewController.xib */,
+				C49C607020511CC1005898D5 /* new.storyboard */,
 				C4396B0C204EA9160099FBE9 /* Assets.xcassets */,
-				C4396B0E204EA9160099FBE9 /* LaunchScreen.storyboard */,
 				C4396B11204EA9160099FBE9 /* Info.plist */,
 			);
 			path = AppsFoodLibary;
+			sourceTree = "<group>";
+		};
+		C4396B17204EAF220099FBE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4396B34205012D30099FBE9 /* Category.swift */,
+				C4396B36205013D80099FBE9 /* MenuList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4396B18204EAF310099FBE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C48D548D2056DA5B00965DBB /* CellsCategory */,
+				C4396B1E204FC46A0099FBE9 /* CellsHome */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4396B19204EAF380099FBE9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C48D5463205698AA00965DBB /* Ingredients */,
+				C49C6077205158CA005898D5 /* Category */,
+				C49C6076205158C3005898D5 /* Home */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C4396B1E204FC46A0099FBE9 /* CellsHome */ = {
+			isa = PBXGroup;
+			children = (
+				C4396B1F204FC4C40099FBE9 /* drinkTableViewCell.swift */,
+				C4396B20204FC4C40099FBE9 /* drinkTableViewCell.xib */,
+				C4396B23204FC4D90099FBE9 /* foodTableViewCell.swift */,
+				C4396B24204FC4D90099FBE9 /* foodTableViewCell.xib */,
+				C4396B2C204FE6A80099FBE9 /* DrinkCollectionViewCell.swift */,
+				C4396B2D204FE6A80099FBE9 /* DrinkCollectionViewCell.xib */,
+			);
+			path = CellsHome;
+			sourceTree = "<group>";
+		};
+		C4396B27204FC7210099FBE9 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C4396B3020500E830099FBE9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C4396B3120500EB80099FBE9 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C4396B33205012A50099FBE9 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C48D54982057B23A00965DBB /* CollapsibleTableViewCell.swift */,
+				C48D54942057B23900965DBB /* CollapsibleTableViewController.swift */,
+				C48D54972057B23A00965DBB /* CollapsibleTableViewHeader.swift */,
+				C48D54952057B23A00965DBB /* ExampleData.swift */,
+				C48D54962057B23A00965DBB /* Extensions.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		C48D5463205698AA00965DBB /* Ingredients */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ingredients;
+			sourceTree = "<group>";
+		};
+		C48D548D2056DA5B00965DBB /* CellsCategory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CellsCategory;
+			sourceTree = "<group>";
+		};
+		C49C6076205158C3005898D5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C4396B1A204EAF7E0099FBE9 /* HomeViewController.swift */,
+				C4396B1B204EAF7E0099FBE9 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C49C6077205158CA005898D5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C49C607220514167005898D5 /* CategoryViewController.swift */,
+				C49C607320514167005898D5 /* CategoryViewController.xib */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D6A3A1098BF1F89E63593B30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6397DB2AC858DE903EAA6B89 /* Pods-AppsFoodLibary.debug.xcconfig */,
+				DD9D3093D5D45CC73175B5B5 /* Pods-AppsFoodLibary.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F64E2636E2DB0AD74DEC1798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE7881A09ED54C1ED7EFDF58 /* Pods_AppsFoodLibary.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4396B14204EA9160099FBE9 /* Build configuration list for PBXNativeTarget "AppsFoodLibary" */;
 			buildPhases = (
+				B5CEFCE7352544785C0CA6AD /* [CP] Check Pods Manifest.lock */,
 				C4396AFE204EA9160099FBE9 /* Sources */,
 				C4396AFF204EA9160099FBE9 /* Frameworks */,
 				C4396B00204EA9160099FBE9 /* Resources */,
+				27EE8AC606302B8F291E87C2 /* [CP] Embed Pods Frameworks */,
+				6DB11E6F9FBA09330AA08876 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,44 +292,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4396B10204EA9160099FBE9 /* LaunchScreen.storyboard in Resources */,
+				C49C607520514167005898D5 /* CategoryViewController.xib in Resources */,
+				C4396B26204FC4D90099FBE9 /* foodTableViewCell.xib in Resources */,
+				C4396B2F204FE6A80099FBE9 /* DrinkCollectionViewCell.xib in Resources */,
 				C4396B0D204EA9160099FBE9 /* Assets.xcassets in Resources */,
-				C4396B0B204EA9160099FBE9 /* Main.storyboard in Resources */,
+				C4396B22204FC4C40099FBE9 /* drinkTableViewCell.xib in Resources */,
+				C49C606D205114A1005898D5 /* StartViewController.xib in Resources */,
+				C4396B1D204EAF7E0099FBE9 /* HomeViewController.xib in Resources */,
+				C49C607120511CC1005898D5 /* new.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27EE8AC606302B8F291E87C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppsFoodLibary/Pods-AppsFoodLibary-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppsFoodLibary/Pods-AppsFoodLibary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB11E6F9FBA09330AA08876 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppsFoodLibary/Pods-AppsFoodLibary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5CEFCE7352544785C0CA6AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppsFoodLibary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4396AFE204EA9160099FBE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4396B08204EA9160099FBE9 /* ViewController.swift in Sources */,
+				C48D549A2057B23A00965DBB /* ExampleData.swift in Sources */,
+				C49C607420514167005898D5 /* CategoryViewController.swift in Sources */,
+				C48D549C2057B23A00965DBB /* CollapsibleTableViewHeader.swift in Sources */,
+				C4396B3220500EB80099FBE9 /* DataService.swift in Sources */,
 				C4396B06204EA9160099FBE9 /* AppDelegate.swift in Sources */,
+				C48D54992057B23A00965DBB /* CollapsibleTableViewController.swift in Sources */,
+				C4396B21204FC4C40099FBE9 /* drinkTableViewCell.swift in Sources */,
+				C4396B2E204FE6A80099FBE9 /* DrinkCollectionViewCell.swift in Sources */,
+				C49C606C205114A1005898D5 /* StartViewController.swift in Sources */,
+				C48D549B2057B23A00965DBB /* Extensions.swift in Sources */,
+				C4396B1C204EAF7E0099FBE9 /* HomeViewController.swift in Sources */,
+				C4396B25204FC4D90099FBE9 /* foodTableViewCell.swift in Sources */,
+				C4396B37205013D80099FBE9 /* MenuList.swift in Sources */,
+				C4396B35205012D30099FBE9 /* Category.swift in Sources */,
+				C48D549D2057B23A00965DBB /* CollapsibleTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C4396B09204EA9160099FBE9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4396B0A204EA9160099FBE9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C4396B0E204EA9160099FBE9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4396B0F204EA9160099FBE9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C4396B12204EA9160099FBE9 /* Debug */ = {
@@ -272,9 +498,11 @@
 		};
 		C4396B15204EA9160099FBE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6397DB2AC858DE903EAA6B89 /* Pods-AppsFoodLibary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppsFoodLibary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jerrypm.AppsFoodLibary;
@@ -286,9 +514,11 @@
 		};
 		C4396B16204EA9160099FBE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9D3093D5D45CC73175B5B5 /* Pods-AppsFoodLibary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppsFoodLibary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jerrypm.AppsFoodLibary;

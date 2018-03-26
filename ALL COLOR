@@ -1,0 +1,43 @@
+ALL COLOR SWIFT 4.0
+
+
+Warna background Tabbar
+//  self.tabBar.barTintColor = #colorLiteral(red: 0.4663587213, green: 0.7125512958, blue: 0.102428861, alpha: 1)
+
+Warna icon Tabbar
+// UITabBar.appearance().tintColor = #colorLiteral(red: 0.4663587213, green: 0.7125512958, blue: 0.102428861, alpha: 1)
+
+
+
+VIEW CONTROLLERS
+
+
+slide dari bawah ke atas
+// let vc = NumberTwoViewController()
+// present(vc, animated: true, completion: nil)
+
+
+slide kesamping kanan ke kiri (no navbar)
+// let vcLoginChange = LoginViewController()
+// self.navigationController?.setViewControllers([vcLoginChange], animated: true)
+
+
+slide kesamping kanan ke kiri (Ada navbar)
+// let vcLoginChange = LoginViewController()
+// self.navigationController?.pushViewController(vcLoginChange, animated: true)
+
+
+extension for rounded
+
+// extension UIView {
+    
+//    @IBInspectable
+//    var cornerRadius: CGFloat {
+//        get {
+//            return layer.cornerRadius
+//        }
+//        set {
+//            layer.cornerRadius = newValue
+//        }
+//    }
+//}

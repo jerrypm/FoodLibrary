@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StartViewController" customModule="AppsFoodLibary" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="800px_COLOURBOX8191362" translatesAutoresizingMaskIntoConstraints="NO" id="QdM-9U-qMR">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Its’ All About Nice Food" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8B-He-u46">
+                    <rect key="frame" x="16" y="616" width="343" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.246876818" green="0.24384251609999999" blue="0.27661008879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="2tQ-0u-rGk">
+                    <rect key="frame" x="68" y="171.5" width="239" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="muO-ho-f28"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FOOD-1" translatesAutoresizingMaskIntoConstraints="NO" id="Bye-Pp-HTs">
+                    <rect key="frame" x="132.5" y="319.5" width="110" height="28"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Library" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2B-hn-27K">
+                    <rect key="frame" x="16" y="355.5" width="343" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAw-dI-0zg">
+                    <rect key="frame" x="16" y="561" width="343" height="30"/>
+                    <color key="backgroundColor" red="0.46882075070000001" green="0.69732636209999999" blue="0.2575934231" alpha="0.9219285103" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Y6p-PH-iMC"/>
+                    </constraints>
+                    <state key="normal" title="GET STARTED">
+                        <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="goStartButton:" destination="-1" eventType="touchUpInside" id="mWr-Jq-tPw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2tQ-0u-rGk" secondAttribute="trailing" constant="68" id="2S5-8b-Ga9"/>
+                <constraint firstItem="RAw-dI-0zg" firstAttribute="top" relation="greaterThanOrEqual" secondItem="j2B-hn-27K" secondAttribute="bottom" constant="10" id="3xp-2Y-mk2"/>
+                <constraint firstItem="Bye-Pp-HTs" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="FkD-oo-E8y"/>
+                <constraint firstItem="RAw-dI-0zg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="PdS-tD-fzO"/>
+                <constraint firstItem="Bye-Pp-HTs" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Q0m-kz-ZeZ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="j2B-hn-27K" secondAttribute="trailing" constant="16" id="Tlj-0Q-XLH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="S8B-He-u46" secondAttribute="bottom" constant="30" id="WeP-Vi-WUa"/>
+                <constraint firstItem="QdM-9U-qMR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="aAc-oi-mtp"/>
+                <constraint firstItem="S8B-He-u46" firstAttribute="top" secondItem="RAw-dI-0zg" secondAttribute="bottom" constant="25" id="bTD-IX-8nu"/>
+                <constraint firstItem="j2B-hn-27K" firstAttribute="top" secondItem="Bye-Pp-HTs" secondAttribute="bottom" constant="8" id="cjF-e7-a6j"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="QdM-9U-qMR" secondAttribute="bottom" id="jZQ-4T-6gO"/>
+                <constraint firstItem="QdM-9U-qMR" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="jne-RQ-rJX"/>
+                <constraint firstItem="S8B-He-u46" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="kd8-Vj-PPy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="RAw-dI-0zg" secondAttribute="trailing" constant="16" id="lU9-zs-EcH"/>
+                <constraint firstItem="2tQ-0u-rGk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="68" id="m2l-ZD-Epc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QdM-9U-qMR" secondAttribute="trailing" id="mRu-HG-cW3"/>
+                <constraint firstItem="j2B-hn-27K" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="vIq-jP-EeD"/>
+                <constraint firstItem="2tQ-0u-rGk" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="vSB-Ab-TxR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="S8B-He-u46" secondAttribute="trailing" constant="16" id="vaF-aj-Ayy"/>
+                <constraint firstItem="Bye-Pp-HTs" firstAttribute="top" secondItem="2tQ-0u-rGk" secondAttribute="bottom" constant="20" id="wP3-dE-PvL"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="800px_COLOURBOX8191362" width="375" height="667"/>
+        <image name="FOOD-1" width="110" height="28"/>
+        <image name="food" width="114" height="117"/>
+    </resources>
+</document>
